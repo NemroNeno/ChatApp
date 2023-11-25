@@ -9,7 +9,7 @@ export const requiredSignIn = async (req, res, next) => {
   
       const decode = JWT.verify(
         req.headers.authorization,
-        process.env.key
+        fakljfk3J@$
       );
   
       req.user = decode;
