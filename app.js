@@ -36,7 +36,7 @@ const server=app.listen(3200, (req, res) => {
 
 const io=new Server(server,{
   cors:{
-    origin:'http://localhost:3000'
+    origin:'https://6562137e09319d419040aebc--resilient-eclair-e17178.netlify.app'
   }
 });
 
